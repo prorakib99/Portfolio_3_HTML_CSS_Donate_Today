@@ -1,3 +1,20 @@
 * {
     margin: 0;
 }
+
+/* Header CSS Style */
+.header {
+    background: gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('/images/donation5.jpg');
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-size: cover;
+    width: 100%;
+    padding: 175px 305px;
+}
+
+.header-title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+}

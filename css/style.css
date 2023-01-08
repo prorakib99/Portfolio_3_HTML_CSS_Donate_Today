@@ -91,7 +91,7 @@ section:last-child {
 .section-description {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: #707070;
 }
 
@@ -167,6 +167,7 @@ section:last-child {
     align-items: flex-start;
     padding: 23px;
 }
+
 .donate-plan:first-child {
     background: rgba(79, 157, 166, 0.1);
 }
@@ -192,10 +193,6 @@ section:last-child {
 }
 
 /* Contribute Section Style */
-.contribute-section {
-    
-}
-
 .contribute-container {
     display: flex;
     gap: 85px;
@@ -205,6 +202,7 @@ section:last-child {
 .contribute-container:first-child {
     margin-bottom: 100px;
 }
+
 .contribute-content .section-title {
     text-align: left;
 }
@@ -215,11 +213,53 @@ section:last-child {
     border-radius: 10px;
     width: 100%;
 }
+
 .contribute-description {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #707070;
 }
-.contribute-content .btn-primary{
+
+.contribute-content .btn-primary {
     margin-top: 10px;
+}
+
+/* Subscribe Section Style */
+.subscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 810px;
+    height: 200px;
+    background: #FFF4D6;
+    margin: 0 auto;
+}
+
+#email, #email::placeholder {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AA9F9F;
+
+}
+#email {
+    padding: 14px 17px;
+    width: 275px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: 2px solid transparent;
+    outline: 0;
+}
+#email:focus {
+    background: #FFEEEE;
+    border-color: #FF5959;
+    color: #FF5959;
+}
+.subscription .btn-primary {
+    padding: 14px 43px;
+    position: relative;
+    left: -5px;
+    top: 2px;
+    border-radius: 0 5px 5px 0;
 }

@@ -190,3 +190,36 @@ section:last-child {
     line-height: 24px;
     color: #707070;
 }
+
+/* Contribute Section Style */
+.contribute-section {
+    
+}
+
+.contribute-container {
+    display: flex;
+    gap: 85px;
+    align-items: center;
+}
+
+.contribute-container:first-child {
+    margin-bottom: 100px;
+}
+.contribute-content .section-title {
+    text-align: left;
+}
+
+.contribute-image img {
+    min-width: 456px;
+    height: 477px;
+    border-radius: 10px;
+    width: 100%;
+}
+.contribute-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #707070;
+}
+.contribute-content .btn-primary{
+    margin-top: 10px;
+}

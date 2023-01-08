@@ -149,8 +149,6 @@ section:last-child {
 }
 
 /* Donate Plan Section */
-.donate-plan-section {}
-
 .donate-plan-container {
     display: flex;
     gap: 24px;
